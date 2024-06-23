@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #081b29;
+    color: #fff;
+    max-width: 100%;
+    height: 100%;
+}
+
+.header .navbar {
+    padding: 25px
+}
+
+.header span{
+    color: #0ef;
+}
+
+.header .container .logo {
+    font-size: 2rem;
+}
+
+.header .container a {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.header .navbar-nav {
+    padding-left: 20rem;
+}
+
+.header .navbar-nav .nav-item {
+    margin: 0 10px;
+}
+
+.header .navbar-nav :hover{
+    color: rgb(223, 74, 74);
+}
+
+
+.header .navbar-toggler {
+    box-shadow: none;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.8rem;
+}
+
+.header .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+/* main section css */
+
+
+.home {
+    padding: 100px 0;
+}
+
+.home .container h1,
+h3 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.home .container h1 span {
+    color: #0ef;
+}
+
+.home .container p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding-top: 25px;
+}
+
+.home .container p span{
+    color: rgb(223, 74, 74);
+    font-size: 2rem;
+}
+
+
+.home img {
+    height: 500px;
+    width: 500px;
+    padding-top: 20px;
+}
+
+.home .social {
+    padding-top: 30px;
+}
+
+.home .social a {
+    color: #0ef;
+    border: 2px solid #0ef;
+    font-size: 1.5rem;
+    margin-right: 15px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.home .social a:hover {
+    background-color: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+
+.home .btn {
+    background-color: #0ef;
+    border: 2px solid #0ef;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.home .btn:hover {
+    background-color: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+
+
+/* about section css */
+
+.about {
+    padding: 100px 0;
+}
+
+.about .img1 img {
+    height: 400px;
+    width: 400px;
+    padding-top: 20px;
+}
+
+.about .about-text h2 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.about .about-text h2 span {
+    color: #0ef;
+}
+
+.about .about-text p {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.about .btn {
+    background-color: #0ef;
+    border: 2px solid #0ef;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.about .btn:hover {
+    background-color: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+
+
+/* Service section css */
+#service{
+    padding: 100px 0;
+}
+
+#service .section-title{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: -80px;
+    font-size:3rem;
+    font-weight: 600;
+}
+#service .section-title span{
+    color: #0ef;
+}
+
+#service .card {
+    background-color: #102a42; 
+    border: none; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+#service .card .card-body {
+    padding: 20px; 
+}
+
+#service .card .card-title {
+    color: #0ef; 
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#service .card .card-text {
+    color: #fff; 
+    font-size: 1rem;
+    padding-left: 15px;
+}
+
+
+
+/* skill bar section css */
+
+#skill{
+    padding: 100px 0;
+}
+
+#skill .progress {
+    margin-bottom: 20px;
+    height: 25px;
+}
+
+#skill .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#skill .section-title span{
+    color: #0ef;
+}
+#skill .skill-heading {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* contact css */
+
+.contact {
+    padding: 130px 0;
+}
+
+.contact .cont-us{
+    margin: auto;
+}
+
+.contact h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.contact h2 span {
+    color: #0ef;
+}
+
+.contact .form-group{
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.contact .btn{
+    background-color: #0ef;
+    border: 2px solid #0ef;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.contact .btn:hover{
+    background-color: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+}
+
+
+@media screen and (max-width:480px) {
+    .header .navbar-nav{
+        padding-left: 8rem;
+    }
+    .home .container h1, h3{
+        font-size: 1.8rem;
+    }
+    .home .container p{
+        font-size: 1.5rem;
+    }
+    .home .container p span{
+        font-size: 1.5rem;
+    }
+    .home img{
+         height: 400px;
+         width: 400px;
+    }
+    .about .about-text p{
+        font-size: 1.2rem;
+    }
+
+    .about .about-text h2{
+        margin-bottom: 15px;
+    }
+
+    .about .btn{
+        margin-bottom: -60px;
+    }
+    #service .card{
+        width: 320px;
+        height: 275px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .about .img1 img{
+        width: 350px;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+    .header .navbar-nav{
+        padding-left: 12rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    .home img{
+         height: 400px;
+         width: 400px;
+         padding-top: 20px;
+         margin-top: -100px;
+ 
+    }
+
+    .home .container h1, h3{
+        font-size: 2rem;
+    }
+
+    .home .container p{
+        font-size: 1.5rem;
+    }
+    .home .container p span{
+        font-size: 1.3rem;
+    }
+    #service .card{
+        width: 325px;
+    }
+
+    .about .about-text p{
+        font-size: 1.2rem;
+    }
+
+    .about .img1 img{
+        margin-left: -100px;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    #service .card{
+        width: 450px;
+    }
+    .header .navbar-nav .nav-item {
+        margin-right: 2px;
+    }
+}
